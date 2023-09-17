@@ -1,0 +1,92 @@
+﻿/* Reset some default styles */
+body {
+    background-color: #f7f7f7;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.quote {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* ... Previous CSS styles ... */
+
+#new-quote-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    padding: 10px; /* Reduced padding for a more compact form */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#new-quote-form h2 {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
+
+/* Increase the height for the input fields */
+textarea, input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: border-color 0.2s;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px; /* Increased height for more text input */
+}
+
+textarea:focus, input:focus {
+    outline: none;
+    border-color: #555;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+cite {
+    font-weight: bold;
+}

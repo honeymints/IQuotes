@@ -1,0 +1,35 @@
+﻿@using Microsoft.IdentityModel.Tokens
+@model IEnumerable<Quotes>
+@{
+    ViewData["Title"] = "Quotes";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="~/css/quotes.css">
+</head>
+<main>
+    
+    
+    @if (Model.IsNullOrEmpty())
+    {
+        <p>No quotes yet.</p>
+    }
+    else
+    {
+        @foreach (var objQuote in Model)
+        {
+            <div class="quote">
+                <blockquote>
+                    @objQuote.QuoteText
+                </blockquote>
+                <cite>- @objQuote.Username</cite>
+            </div>
+        }
+    }
+    <div>
+        <a role="button" asp-controller="Quotes" asp-action="Create">Create</a></div>
+
+    <!-- Add more quote blocks dynamically based on user submissions -->
+</main>

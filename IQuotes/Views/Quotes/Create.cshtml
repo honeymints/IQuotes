@@ -1,0 +1,19 @@
+﻿@model Quotes
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div id="new-quote-form">
+    <h2>Write New Quote!</h2>
+    <form method="POST" > <!-- Replace with your actual form action URL -->
+            
+        <div>
+            <label asp-for="QuoteText">Quote:</label>
+            <input asp-for="QuoteText" type="text" required>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>

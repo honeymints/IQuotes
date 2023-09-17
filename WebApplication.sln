@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQuotes", "IQuotes\IQuotes.csproj", "{4CD653F1-0B1E-42F5-8929-FA7E4ED7CF2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{370547D1-5F8E-41B6-A71B-759B60D982E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CD653F1-0B1E-42F5-8929-FA7E4ED7CF2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD653F1-0B1E-42F5-8929-FA7E4ED7CF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD653F1-0B1E-42F5-8929-FA7E4ED7CF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD653F1-0B1E-42F5-8929-FA7E4ED7CF2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{370547D1-5F8E-41B6-A71B-759B60D982E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370547D1-5F8E-41B6-A71B-759B60D982E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370547D1-5F8E-41B6-A71B-759B60D982E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370547D1-5F8E-41B6-A71B-759B60D982E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
