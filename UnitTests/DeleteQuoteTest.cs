@@ -22,17 +22,18 @@ public class DeleteQuoteTest
 
                 var quote = new Quotes
                 {
-                    Username = "TestUser",
+                    User = new User(),
                     QuoteText = "This is a test quote.",
                     CreatedAt = DateTime.UtcNow
                 };
 
+                quote.User.Username = "TextUser";
                 // act: add the quote to the database
                 context.Quotes.Add(quote);
                 context.SaveChanges();
 
                 // assert
-                var savedQuote = context.Quotes.FirstOrDefault(q => q.Username == "TestUser" && q.QuoteText == "This is a test quote.");
+                var savedQuote = context.Quotes.FirstOrDefault(q => q.User.Username == "TestUser" && q.QuoteText == "This is a test quote.");
                 Assert.NotNull(savedQuote);
                 
                 var expectedResult = quote;
@@ -41,7 +42,7 @@ public class DeleteQuoteTest
                 var actualResult = savedQuote;
 
                 // assert
-                Assert.Equal(expectedResult.Username, actualResult.Username);
+                Assert.Equal(expectedResult.User.Username, actualResult.User.Username);
                 Assert.Equal(expectedResult.QuoteText, actualResult.QuoteText);
                 Assert.Equal(expectedResult.CreatedAt, actualResult.CreatedAt, TimeSpan.FromSeconds(1)); 
 
@@ -53,7 +54,7 @@ public class DeleteQuoteTest
             // assert: verify that the quote has been deleted
             using (var context = new ApplicationDbContext(options))
             {
-                var deletedQuote = context.Quotes.FirstOrDefault(q => q.Username == "TestUser" && q.QuoteText == "This is a test quote.");
+                var deletedQuote = context.Quotes.FirstOrDefault(q => q.User.Username == "TestUser" && q.QuoteText == "This is a test quote.");
                 Assert.Null(deletedQuote); // The quote should no longer exist in the database
             }
     }

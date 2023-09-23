@@ -29,11 +29,19 @@ public class QuotesController : Controller
     [ValidateAntiForgeryToken]
     public IActionResult Create(Quotes quotes)
     {
-        quotes.Username = "aruchanism@mail.com";
-        quotes.QuoteText.ToString();
+        
+        quotes.User = new User();
+        quotes.User.Email = "aruzhan@mail.ru";
+        quotes.User.Username = " ";
+        //quotes.QuoteText.ToString();
+        quotes.User.Password = "1234567";
+        quotes.UserID = 2;
+        
+        /*quotes.User.Quotes = new List<Quotes>();
+        quotes.User.Quotes.Add(quotes);*/
+        
         
         _db.Quotes.Add(quotes);
-        
         _db.SaveChanges();
         return RedirectToAction("Index");
     }

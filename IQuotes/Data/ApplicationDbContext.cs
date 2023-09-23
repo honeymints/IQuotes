@@ -14,6 +14,7 @@ public class ApplicationDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<User>().HasMany(e => e.Quotes);
+        modelBuilder.Entity<User>().HasKey(e => e.ID);
     }
 
     

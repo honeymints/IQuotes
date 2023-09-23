@@ -15,44 +15,46 @@ namespace UnitTests
         [Fact]
         public void AddAndUpdateQuotes_ShouldSucceed()
         {
-            // Arrange
+            // arrange
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
                 .UseInMemoryDatabase(databaseName: "TestDatabase")
                 .Options;
 
             using (var context = new ApplicationDbContext(options))
             {
-                // Create the database schema
+                // create the database schema
                 context.Database.EnsureCreated();
 
                 var quotes = new List<Quotes>
                 {
                     new Quotes
                     {
-                        Username = "TestUser1",
+                        User = new User(),
                         QuoteText = "Quote 1",
                         CreatedAt = DateTime.UtcNow
                     },
                     new Quotes
                     {
-                        Username = "TestUser2",
+                        User = new User(),
                         QuoteText = "Quote 2",
                         CreatedAt = DateTime.UtcNow
                     }
                 };
-
-                // Act: Add quotes to the database
+                for(int i=0;i<quotes.Count;i++){
+                    quotes[i].User.Username = "TextUser";
+                }
+                // act: 
                 context.Quotes.AddRange(quotes);
                 context.SaveChanges();
 
-                // Assert: Verify the quotes were added
+                // assert: verify the quotes were added
                 foreach (var quote in quotes)
                 {
-                    var savedQuote = context.Quotes.FirstOrDefault(q => q.Username == quote.Username && q.QuoteText == quote.QuoteText);
+                    var savedQuote = context.Quotes.FirstOrDefault(q => q.User.Username == quote.User.Username && q.QuoteText == quote.QuoteText);
                     Assert.NotNull(savedQuote);
                 }
 
-                // Update quotes
+                // update quotes
                 foreach (var quote in quotes)
                 {
                     quote.QuoteText = "Updated " + quote.QuoteText;
@@ -60,13 +62,13 @@ namespace UnitTests
                 }
                 context.SaveChanges();
 
-                // Assert: Verify that the quotes have been updated
+                // assert: verify that the quotes have been updated
                 foreach (var quote in quotes)
                 {
-                    var updatedQuote = context.Quotes.SingleOrDefault(q => q.Username == quote.Username && q.QuoteText == "Updated " + quote.QuoteText);
+                    var updatedQuote = context.Quotes.SingleOrDefault(q => q.User.Username == quote.User.Username && q.QuoteText == "Updated " + quote.QuoteText);
                     Assert.NotNull(updatedQuote);
 
-                    // Expected Result: Verify that the QuoteText property has been updated
+                    // expected Result: verify that the QuoteText property has been updated
                     var expectedResult = "Updated " + quote.QuoteText;
                     var actualResult = updatedQuote.QuoteText;
                     Assert.Equal(expectedResult, actualResult);
