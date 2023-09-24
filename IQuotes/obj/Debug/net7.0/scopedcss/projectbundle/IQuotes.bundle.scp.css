@@ -1,3 +1,58 @@
+/* _content/IQuotes/Views/Account/SignUp.cshtml.rz.scp.css */
+*[b-706uo0z3yj] {box-sizing: border-box}
+
+/* Add padding to containers */
+.container[b-706uo0z3yj] {
+    padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text][b-706uo0z3yj], input[type=password][b-706uo0z3yj] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus[b-706uo0z3yj], input[type=password]:focus[b-706uo0z3yj] {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr[b-706uo0z3yj] {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn[b-706uo0z3yj] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover[b-706uo0z3yj] {
+    opacity:1;
+}
+
+/* Add a blue text color to links */
+a[b-706uo0z3yj] {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin[b-706uo0z3yj] {
+    background-color: #f1f1f1;
+    text-align: center;
+}
 /* _content/IQuotes/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
@@ -46,59 +101,4 @@ button.accept-policy[b-ttnl4e4i2r] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
-}
-/* _content/IQuotes/Views/SignUp/Index.cshtml.rz.scp.css */
-*[b-wxfzhqtdas] {box-sizing: border-box}
-
-/* Add padding to containers */
-.container[b-wxfzhqtdas] {
-    padding: 16px;
-}
-
-/* Full-width input fields */
-input[type=text][b-wxfzhqtdas], input[type=password][b-wxfzhqtdas] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-}
-
-input[type=text]:focus[b-wxfzhqtdas], input[type=password]:focus[b-wxfzhqtdas] {
-    background-color: #ddd;
-    outline: none;
-}
-
-/* Overwrite default styles of hr */
-hr[b-wxfzhqtdas] {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-}
-
-/* Set a style for the submit/register button */
-.registerbtn[b-wxfzhqtdas] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
-.registerbtn:hover[b-wxfzhqtdas] {
-    opacity:1;
-}
-
-/* Add a blue text color to links */
-a[b-wxfzhqtdas] {
-    color: dodgerblue;
-}
-
-/* Set a grey background color and center the text of the "sign in" section */
-.signin[b-wxfzhqtdas] {
-    background-color: #f1f1f1;
-    text-align: center;
 }

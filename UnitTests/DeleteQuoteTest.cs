@@ -24,7 +24,8 @@ public class DeleteQuoteTest
                 {
                     User = new User(),
                     QuoteText = "This is a test quote.",
-                    CreatedAt = DateTime.UtcNow
+                    CreatedAt = DateTime.UtcNow,
+                    
                 };
 
                 quote.User.Username = "TextUser";

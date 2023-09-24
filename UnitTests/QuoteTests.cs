@@ -4,28 +4,25 @@ using IQuotes.Data;
 using IQuotes.Models;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
+using System;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using Xunit;
 
-namespace UnitTests
+namespace UnitTests;
+
+public class QuoteTests
 {
-    using System;
-    using System.Linq;
-    using Microsoft.EntityFrameworkCore;
-    using Xunit;
-
-    namespace UnitTests
-    {
-        public class QuoteTests
+        [Fact] 
+        public void AddQuoteToDatabase_ShouldSucceed()
         {
-            [Fact]
-            public void AddQuoteToDatabase_ShouldSucceed()
-            {
                 // arrange
-                var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
                     .UseInMemoryDatabase(databaseName: "TestDatabase")
                     .Options;
 
-                using (var context = new ApplicationDbContext(options))
-                {
+            using (var context = new ApplicationDbContext(options))
+            {
                     // create the database schema
                     context.Database.EnsureCreated();
 
@@ -42,22 +39,24 @@ namespace UnitTests
                     context.SaveChanges();
 
                     // assert
-                    var savedQuote = context.Quotes.FirstOrDefault(q => q.User.Username == "TestUser" && q.QuoteText == "This is a test quote.");
+                    var savedQuote = context.Quotes.FirstOrDefault(q =>
+                        q.User.Username == "TestUser" && q.QuoteText == "This is a test quote.");
                     Assert.NotNull(savedQuote);
 
-                 
+
                     var expectedResult = quote;
 
-      
+
                     var actualResult = savedQuote;
 
                     // assert
                     Assert.Equal(expectedResult.User.Username, actualResult.User.Username);
                     Assert.Equal(expectedResult.QuoteText, actualResult.QuoteText);
                     Assert.Equal(expectedResult.CreatedAt, actualResult.CreatedAt, TimeSpan.FromSeconds(1)); 
-                }
-            }
-        }
-    }
-
+            } 
+        } 
 }
+
+
+
+

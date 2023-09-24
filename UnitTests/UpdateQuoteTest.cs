@@ -6,8 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace UnitTests
-{
+namespace UnitTests;
+
    
     
     public class UpdateQuoteTests
@@ -76,5 +76,5 @@ namespace UnitTests
             }
         }
     }
-}
+
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "F9CGsRr50s8EjkyJYVVed1my6vSUF93j9S1E6+IwKnE26tUjtEnDHZdPEN3mf3KwzHNPvVfX3JTIiujqs6eOwg==",
+  "dgSpecHash": "WGZiG9Pcm9q1KmTj3Pu5ODppoC5p+zQov8Xl5/eddMeCdDX3764YuYBH6/Q4S17P2ySrBDVlUZ8MGvfrwhvPlA==",
   "success": true,
   "projectFilePath": "C:\\Users\\aruch\\RiderProjects\\WebApplication\\IQuotes\\IQuotes.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\aruch\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\aruch\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\aruch\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\aruch\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.11\\microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",
     "C:\\Users\\aruch\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\aruch\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\aruch\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",

@@ -16,16 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\aruch\RiderProjects\WebApplication\IQuotes
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/aruch/RiderProjects/WebApplication/IQuotes/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aruch/RiderProjects/WebApplication/IQuotes/Views/Account/MyQuotes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNeVF1b3Rlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/aruch/RiderProjects/WebApplication/IQuotes/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/aruch/RiderProjects/WebApplication/IQuotes/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/aruch/RiderProjects/WebApplication/IQuotes/Views/Login/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/aruch/RiderProjects/WebApplication/IQuotes/Views/Quotes/Create.cshtml]
@@ -44,10 +48,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aruch/RiderProjects/WebApplication/IQuotes/Views/SignUp/Done.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXERvbmUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/aruch/RiderProjects/WebApplication/IQuotes/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,10 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/aruch/RiderProjects/WebApplication/IQuotes/Views/Account/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-706uo0z3yj
+
 [C:/Users/aruch/RiderProjects/WebApplication/IQuotes/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ttnl4e4i2r
-
-[C:/Users/aruch/RiderProjects/WebApplication/IQuotes/Views/SignUp/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-wxfzhqtdas
