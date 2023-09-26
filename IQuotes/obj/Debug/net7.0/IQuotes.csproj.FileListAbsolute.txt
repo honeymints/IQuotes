@@ -336,3 +336,9 @@ C:\Users\aruch\RiderProjects\WebApplication\IQuotes\bin\Debug\net7.0\zh-Hant\Mic
 C:\Users\aruch\RiderProjects\WebApplication\IQuotes\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\aruch\RiderProjects\WebApplication\IQuotes\obj\Debug\net7.0\scopedcss\Views\Account\SignUp.cshtml.rz.scp.css
 C:\Users\aruch\RiderProjects\WebApplication\IQuotes\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\aruch\RiderProjects\WebApplication\IQuotes\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\aruch\RiderProjects\WebApplication\IQuotes\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\aruch\RiderProjects\WebApplication\IQuotes\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\aruch\RiderProjects\WebApplication\IQuotes\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\aruch\RiderProjects\WebApplication\IQuotes\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\aruch\RiderProjects\WebApplication\IQuotes\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

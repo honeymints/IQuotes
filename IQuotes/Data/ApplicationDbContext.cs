@@ -1,9 +1,11 @@
 ﻿using IQuotes.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace IQuotes.Data;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationDbContext : IdentityDbContext<IdentityUser>
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
@@ -13,12 +15,15 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        //modelBuilder.Entity<User>().HasMany(e => e.Quotes);
-        modelBuilder.Entity<User>().HasKey(e => e.ID);
-        modelBuilder.Entity<User>().HasIndex(e => e.Email).IsUnique(true); //email unique
+        base.OnModelCreating(modelBuilder);
+        /*modelBuilder.Entity<User>().HasKey(e => e.ID);
+        modelBuilder.Entity<IdentityUserLogin<string>>().HasKey(e => e.UserId)*/; /*
+        modelBuilder.Entity<User>().HasIndex(e => e.Email).IsUnique(true);*/ //email unique
+        modelBuilder.SeedRoles();
     }
 
     
+
     public DbSet<User> Users { get; set; }
     public DbSet<Quotes> Quotes { get; set; }
     

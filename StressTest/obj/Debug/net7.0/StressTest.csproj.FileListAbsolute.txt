@@ -324,3 +324,9 @@ C:\Users\aruch\RiderProjects\WebApplication\StressTest\obj\Debug\net7.0\refint\S
 C:\Users\aruch\RiderProjects\WebApplication\StressTest\obj\Debug\net7.0\StressTest.pdb
 C:\Users\aruch\RiderProjects\WebApplication\StressTest\obj\Debug\net7.0\StressTest.genruntimeconfig.cache
 C:\Users\aruch\RiderProjects\WebApplication\StressTest\obj\Debug\net7.0\ref\StressTest.dll
+C:\Users\aruch\RiderProjects\WebApplication\StressTest\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\aruch\RiderProjects\WebApplication\StressTest\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\aruch\RiderProjects\WebApplication\StressTest\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\aruch\RiderProjects\WebApplication\StressTest\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\aruch\RiderProjects\WebApplication\StressTest\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\aruch\RiderProjects\WebApplication\StressTest\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

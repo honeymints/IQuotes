@@ -10,7 +10,7 @@ public class Quotes
     public int UserID { get; set;}
     public User User { get; set; }
     [Required]
-    public string QuoteText { get; set; }
+    public string? QuoteText { get; set; }
     public DateTime CreatedAt { get; set; }
     
     
