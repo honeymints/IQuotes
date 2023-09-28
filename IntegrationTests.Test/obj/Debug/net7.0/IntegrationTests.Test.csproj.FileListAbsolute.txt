@@ -307,9 +307,7 @@ C:\Users\aruch\RiderProjects\WebApplication\IntegrationTests.Test\bin\Debug\net7
 C:\Users\aruch\RiderProjects\WebApplication\IntegrationTests.Test\bin\Debug\net7.0\refs\System.Xml.XPath.XDocument.dll
 C:\Users\aruch\RiderProjects\WebApplication\IntegrationTests.Test\bin\Debug\net7.0\refs\WindowsBase.dll
 C:\Users\aruch\RiderProjects\WebApplication\IntegrationTests.Test\bin\Debug\net7.0\IQuotes.dll
-C:\Users\aruch\RiderProjects\WebApplication\IntegrationTests.Test\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\aruch\RiderProjects\WebApplication\IntegrationTests.Test\bin\Debug\net7.0\IQuotes.pdb
-C:\Users\aruch\RiderProjects\WebApplication\IntegrationTests.Test\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\aruch\RiderProjects\WebApplication\IntegrationTests.Test\obj\Debug\net7.0\IntegrationTests.Test.csproj.AssemblyReference.cache
 C:\Users\aruch\RiderProjects\WebApplication\IntegrationTests.Test\obj\Debug\net7.0\MvcTestingAppManifest.json
 C:\Users\aruch\RiderProjects\WebApplication\IntegrationTests.Test\obj\Debug\net7.0\IntegrationTests.Test.GeneratedMSBuildEditorConfig.editorconfig
