@@ -1,4 +1,5 @@
 using IQuotes.Data;
+using IQuotes.Services.EmailService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -18,6 +19,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
+
+
+//adding email service
+builder.Services.AddScoped<IEmailSender, EmailSender>();
 
 //adding authentication
 builder.Services.AddAuthentication(options =>
