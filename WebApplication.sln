@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StressTest", "StressTest\St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration.Test", "Integration.Test\Integration.Test.csproj", "{D247391E-8919-498A-9982-32D1401AFDE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smoke.Tests", "Smoke.Tests\Smoke.Tests.csproj", "{DE8494F0-DB78-42E9-88A2-CB5872270914}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{D247391E-8919-498A-9982-32D1401AFDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D247391E-8919-498A-9982-32D1401AFDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D247391E-8919-498A-9982-32D1401AFDE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8494F0-DB78-42E9-88A2-CB5872270914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8494F0-DB78-42E9-88A2-CB5872270914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8494F0-DB78-42E9-88A2-CB5872270914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8494F0-DB78-42E9-88A2-CB5872270914}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

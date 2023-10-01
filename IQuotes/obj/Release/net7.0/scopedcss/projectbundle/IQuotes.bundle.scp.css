@@ -1,0 +1,104 @@
+/* _content/IQuotes/Views/Account/SignUp.cshtml.rz.scp.css */
+*[b-706uo0z3yj] {box-sizing: border-box}
+
+/* Add padding to containers */
+.container[b-706uo0z3yj] {
+    padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text][b-706uo0z3yj], input[type=password][b-706uo0z3yj] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus[b-706uo0z3yj], input[type=password]:focus[b-706uo0z3yj] {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr[b-706uo0z3yj] {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn[b-706uo0z3yj] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover[b-706uo0z3yj] {
+    opacity:1;
+}
+
+/* Add a blue text color to links */
+a[b-706uo0z3yj] {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin[b-706uo0z3yj] {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+/* _content/IQuotes/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-ttnl4e4i2r] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-ttnl4e4i2r] {
+  color: #0077cc;
+}
+
+.btn-primary[b-ttnl4e4i2r] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-ttnl4e4i2r], .nav-pills .show > .nav-link[b-ttnl4e4i2r] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-ttnl4e4i2r] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-ttnl4e4i2r] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-ttnl4e4i2r] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-ttnl4e4i2r] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-ttnl4e4i2r] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
