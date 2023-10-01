@@ -1,48 +1,36 @@
 ﻿using NBench;
 using System.Net.Http;
+using BenchmarkDotNet.Attributes;
+using IQuotes;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc.Testing;
+using Microsoft.Extensions.Logging;
+using Org.BouncyCastle.Asn1.IsisMtt.Ocsp;
 
 namespace StressTest;
 
+[MemoryDiagnoser]
 public class GetRequestTest
 {
-
-    private const string BaseUrl = "http://localhost:5210";
-    private const int ConcurrentUsers = 100; // Number of concurrent users
-    private Counter _operationsCounter;
-
-    [PerfSetup]
-    public void Setup(BenchmarkContext context)
+    private static HttpClient _httpClient;
+    [GlobalSetup]
+    public void GlobalSetup()
     {
+        System.Diagnostics.Debugger.Launch();
         // Initialize resources or setup code here
-        _operationsCounter = context.GetCounter("Operations Counter");
+        //_operationsCounter = context.GetCounter("Operations Counter");
+        var _factory = new WebApplicationFactory<Startup>().WithWebHostBuilder(
+            configuration=>configuration.ConfigureLogging(logging=>
+                logging.ClearProviders()
+                ));
+        _httpClient = _factory.CreateClient();
     }
 
-    [PerfBenchmark(
-        Description = "Stress test the HomeController Index action with concurrent users",
-        RunMode = RunMode.Iterations,
-        NumberOfIterations = 1, // Run the test once
-        RunTimeMilliseconds = 10000, // Total run time in milliseconds
-        TestMode = TestMode.Test)]
-    [CounterThroughputAssertion("Operations Counter", MustBe.GreaterThanOrEqualTo,
-        ConcurrentUsers)] // Example assertion
-    public void BenchmarkHomeController()
+    [Benchmark]
+    public async Task GetResponseTime()
     {
-        // Create and start a task for each concurrent user
-        var tasks = new Task[ConcurrentUsers];
-        var httpClient = new HttpClient();
-
-        for (int i = 0; i < ConcurrentUsers; i++)
-        {
-            tasks[i] = Task.Run(async () =>
-            {
-                var response = await httpClient.GetAsync($"{BaseUrl}/Home");
-                _operationsCounter.Increment();
-                // You can analyze the response or perform other actions here if needed.
-            });
-        }
-
-        // Wait for all tasks to complete
-        Task.WhenAll(tasks).Wait();
+       var response= await _httpClient.GetAsync("/");
     }
 }
 

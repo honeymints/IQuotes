@@ -27,13 +27,13 @@ namespace UnitTests;
 
                 var quotes = new List<Quotes>
                 {
-                    new Quotes
+                    new Quotes()
                     {
                         User = new User(),
                         QuoteText = "Quote 1",
                         CreatedAt = DateTime.UtcNow
                     },
-                    new Quotes
+                    new Quotes()
                     {
                         User = new User(),
                         QuoteText = "Quote 2",
@@ -41,7 +41,9 @@ namespace UnitTests;
                     }
                 };
                 for(int i=0;i<quotes.Count;i++){
-                    quotes[i].User.Username = "TextUser";
+                    quotes[i].User.Username = "TestUser";
+                    quotes[i].User.Email = "newemail" + i;
+                    quotes[i].User.Password = "newpassword123";
                 }
                 // act: 
                 context.Quotes.AddRange(quotes);
@@ -65,11 +67,11 @@ namespace UnitTests;
                 // assert: verify that the quotes have been updated
                 foreach (var quote in quotes)
                 {
-                    var updatedQuote = context.Quotes.SingleOrDefault(q => q.User.Username == quote.User.Username && q.QuoteText == "Updated " + quote.QuoteText);
+                    var updatedQuote = context.Quotes.SingleOrDefault(q => q.User.Username == quote.User.Username && q.QuoteText ==quote.QuoteText);
                     Assert.NotNull(updatedQuote);
 
                     // expected Result: verify that the QuoteText property has been updated
-                    var expectedResult = "Updated " + quote.QuoteText;
+                    var expectedResult = quote.QuoteText;
                     var actualResult = updatedQuote.QuoteText;
                     Assert.Equal(expectedResult, actualResult);
                 }

@@ -3,11 +3,11 @@ using Xunit;
 
 namespace Integration.Test.IntegrationTests;
 
-public class AutenticationTests : IClassFixture<WebApplicationFactory<Program>>
+public class AutenticationTests : IClassFixture<WebApplicationFactory<Startup>>
 {
-    private readonly WebApplicationFactory<Program> _factory;
+    private readonly WebApplicationFactory<Startup> _factory;
 
-    public AutenticationTests(WebApplicationFactory<Program> factory)
+    public AutenticationTests(WebApplicationFactory<Startup> factory)
     {
         _factory = factory;
     }

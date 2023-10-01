@@ -28,7 +28,9 @@ public class DeleteQuoteTest
                     
                 };
 
-                quote.User.Username = "TextUser";
+                quote.User.Username = "TestUser";
+                quote.User.Password = "newpassword";
+                quote.User.Email = "newemail123";
                 // act: add the quote to the database
                 context.Quotes.Add(quote);
                 context.SaveChanges();

@@ -180,11 +180,11 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.5.0, )"
+              "version": "[2.5.1, )"
             },
             "xunit.extensibility.core": {
               "target": "Package",
-              "version": "[2.5.0, )"
+              "version": "[2.5.1, )"
             }
           },
           "imports": [

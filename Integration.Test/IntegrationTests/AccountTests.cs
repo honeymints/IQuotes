@@ -3,16 +3,17 @@ using Xunit;
 namespace Integration.Test.IntegrationTests;
 
 
-public class AccountTests : IClassFixture<WebApplicationFactory<Program>>
+public class AccountTests : IClassFixture<WebApplicationFactory<Startup>>
 {
     
-        private readonly WebApplicationFactory<Program> _factory;
+        private readonly WebApplicationFactory<Startup> _factory;
 
-        public AccountTests(WebApplicationFactory<Program> factory)
+        public AccountTests(WebApplicationFactory<Startup> factory)
         {
             _factory = factory;
         }
 
+        
         [Theory]
         [InlineData("/")]
         [InlineData("/Account/SignUp")]

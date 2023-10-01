@@ -1,11 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using NBench;
 
-internal class Program
+using BenchmarkDotNet.Configs;
+using BenchmarkDotNet.Running;
+using StressTest;
+
+public class Program
 {
-    static int Main(string[] args)
+    static void Main(string[] args)
     {
-        return NBenchRunner.Run<Program>();
+        BenchmarkRunner.Run<GetRequestTest>();
     }
+    /*static void Main(string[] args) => BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args, new DebugInProcessConfig());*/
 }

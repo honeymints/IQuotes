@@ -7,7 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <InternalVisibleTo Include="$(AssemblyName).Test" />
         <PackageReference Include="Azure.Core" Version="1.25.0" />
         <PackageReference Include="MailKit" Version="4.2.0" />
       <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.11" />
