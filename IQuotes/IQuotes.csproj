@@ -7,8 +7,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <InternalVisibleTo Include="$(AssemblyName).Test"/>
+        <PackageReference Include="Azure.Core" Version="1.25.0" />
+        <PackageReference Include="MailKit" Version="4.2.0" />
       <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.11" />
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.11" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="7.0.11" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.11" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
@@ -21,7 +24,11 @@
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.11" />
       <PackageReference Include="NUnit" Version="3.13.3" />
       <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.1" />
-      <PackageReference Include="xunit" Version="2.5.0" />
+      <PackageReference Include="xunit" Version="2.5.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Views\Authentication" />
     </ItemGroup>
 
     

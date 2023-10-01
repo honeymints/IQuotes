@@ -33,7 +33,9 @@ public class QuoteTests
                         CreatedAt = DateTime.UtcNow
                     };
 
-                    quote.User.Username = "TextUser";
+                    quote.User.Username = "TestUser";
+                    quote.User.Password = "newpassword";
+                    quote.User.Email = "newemail123";
                     // act
                     context.Quotes.Add(quote);
                     context.SaveChanges();

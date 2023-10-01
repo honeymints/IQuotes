@@ -1,27 +1,29 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=11303e09_002D5310_002D40b6_002D86b6_002D061c288a5d98/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AccountTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::41F57607-4205-4A47-93DC-3E267FF189AF::net7.0::IntegrationTesting.AccountTest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=668e0abb_002D7fde_002D44d4_002D9760_002D25243a5f9434/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Index_ReturnsHomePage" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::41F57607-4205-4A47-93DC-3E267FF189AF::net7.0::IntegrationTesting.AccountTest.Index_ReturnsHomePage&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8f3f7f2b_002D25f4_002D4065_002Db2d9_002Dd38fffd9db8a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AccountTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::41F57607-4205-4A47-93DC-3E267FF189AF::net7.0::IntegrationTesting.AccountTest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af8b9bc4_002D1e15_002D4393_002D859b_002D7e7588a4eb35/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Index_ReturnsHomePage #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8b635d3b_002D728b_002D4215_002Db7fd_002D70bcf76e8c73/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AccountTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Or&gt;&#xD;
-    &lt;ProjectFile&gt;41F57607-4205-4A47-93DC-3E267FF189AF/f:HomeTest.cs&lt;/ProjectFile&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
-      &lt;TestId&gt;xUnit::41F57607-4205-4A47-93DC-3E267FF189AF::net7.0::IntegrationTests.Test.AccountTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::D247391E-8919-498A-9982-32D1401AFDE3::net7.0::Integration.Test.IntegrationTests.AccountTests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::370547D1-5F8E-41B6-A71B-759B60D982E8::net7.0::UnitTests.DatabaseTests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::370547D1-5F8E-41B6-A71B-759B60D982E8::net7.0::UnitTests.DeleteQuoteTest.AddAndDeleteQuoteToDatabase_ShouldSucceed&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::370547D1-5F8E-41B6-A71B-759B60D982E8::net7.0::UnitTests.QuoteTests.AddQuoteToDatabase_ShouldSucceed&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::370547D1-5F8E-41B6-A71B-759B60D982E8::net7.0::UnitTests.UpdateQuoteTests.AddAndUpdateQuotes_ShouldSucceed&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::91732A91-D82B-4A91-8BBF-A9E8CAEAEA53::net7.0::SmokeTests.SmokeTests.Authenticate_Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::91732A91-D82B-4A91-8BBF-A9E8CAEAEA53::net7.0::Smoke.Test.SmokeTests.Authenticate_Test&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\aruch\RiderProjects\WebApplication\Smoke.Tests" Presentation="&amp;lt;Smoke.Tests&amp;gt;" /&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=aca68a2a_002D5a28_002D46a3_002D86d9_002D579d15a0d140/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AccountTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::D247391E-8919-498A-9982-32D1401AFDE3::net7.0::Integration.Test.IntegrationTests.AccountTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=be3edfea_002D2e24_002D44d8_002Db34c_002D6101f91d8b08/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="DatabaseConnectionCheckerTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Solution /&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	
+	</wpf:ResourceDictionary>
