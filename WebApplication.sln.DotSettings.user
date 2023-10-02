@@ -38,8 +38,10 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::D247391E-8919-498A-9982-32D1401AFDE3::net7.0::Integration.Test.IntegrationTests.AutenticationTests.SignUp_ValidUser_ReturnsRedirectToHome&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::D247391E-8919-498A-9982-32D1401AFDE3::net7.0::Integration.Test.IntegrationTests.AutenticationTests.SignUp_InvalidUser_ReturnsBadRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D247391E-8919-498A-9982-32D1401AFDE3::net7.0::Integration.Test.IntegrationTests.AccountTests.Get_SignUpEndpointsAndCorrectContentType&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	
 	
 	
 	</wpf:ResourceDictionary>
