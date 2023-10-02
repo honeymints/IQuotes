@@ -10,4 +10,4 @@ AMD Ryzen 5 5500U with Radeon Graphics, 1 CPU, 12 logical and 6 physical cores
 ```
 | Method          | Mean     | Error   | StdDev  | Gen0    | Gen1   | Allocated |
 |---------------- |---------:|--------:|--------:|--------:|-------:|----------:|
-| GetResponseTime | 252.3 μs | 4.99 μs | 8.21 μs | 12.2070 | 0.4883 |  28.08 KB |
+| GetResponseTime | 152.2 μs | 2.60 μs | 2.99 μs | 12.6953 | 0.4883 |  28.08 KB |

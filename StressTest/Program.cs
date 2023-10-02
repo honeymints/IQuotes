@@ -10,6 +10,7 @@ public class Program
     static void Main(string[] args)
     {
         BenchmarkRunner.Run<GetRequestTest>();
+        BenchmarkRunner.Run<UserRegistrationBenchmark>();
     }
     /*static void Main(string[] args) => BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args, new DebugInProcessConfig());*/
 }
