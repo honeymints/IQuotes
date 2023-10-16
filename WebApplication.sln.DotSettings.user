@@ -20,11 +20,14 @@
     &lt;TestId&gt;xUnit::D247391E-8919-498A-9982-32D1401AFDE3::net7.0::Integration.Test.IntegrationTests.AutenticationTests.SignUp_InvalidUser_ReturnsBadRequest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bbaf4e71_002D9c17_002D45b0_002D91ca_002D95e9859f958f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AccountTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bbaf4e71_002D9c17_002D45b0_002D91ca_002D95e9859f958f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AccountTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::D247391E-8919-498A-9982-32D1401AFDE3::net7.0::Integration.Test.IntegrationTests.AccountTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::D247391E-8919-498A-9982-32D1401AFDE3::net7.0::Integration.Test.IntegrationTests.AutenticationTests.SignUp_InvalidUser_ReturnsBadRequest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::D247391E-8919-498A-9982-32D1401AFDE3::net7.0::Integration.Test.IntegrationTests.AutenticationTests.SignUp_ValidUser_ReturnsRedirectToHome&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::40C58B34-AB8F-4060-8A26-110885863426::net7.0::DatabaseTesting.Test.UserTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F6383318-B4B4-4C0F-8AF8-A2FD067A7F2C::net7.0::Database.Test.UserTests.AddUserToDb&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F6383318-B4B4-4C0F-8AF8-A2FD067A7F2C::net7.0::Database.Test.UserTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
