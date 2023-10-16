@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration.Test", "Integra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smoke.Tests", "Smoke.Tests\Smoke.Tests.csproj", "{DE8494F0-DB78-42E9-88A2-CB5872270914}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database.Test", "Database.Test\Database.Test.csproj", "{F6383318-B4B4-4C0F-8AF8-A2FD067A7F2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{DE8494F0-DB78-42E9-88A2-CB5872270914}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE8494F0-DB78-42E9-88A2-CB5872270914}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE8494F0-DB78-42E9-88A2-CB5872270914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6383318-B4B4-4C0F-8AF8-A2FD067A7F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6383318-B4B4-4C0F-8AF8-A2FD067A7F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6383318-B4B4-4C0F-8AF8-A2FD067A7F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6383318-B4B4-4C0F-8AF8-A2FD067A7F2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
